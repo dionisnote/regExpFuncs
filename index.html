@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .input{
+            width: 500px;
+            margin: 20px;
+        }
+        .result {
+            min-height: 50px;
+            margin: 20px;
+            background: #eaeaea;
+            font-size: 200%;
+
+        }
+
+    </style>
+</head>
+<body>
+    <label for="frase">
+        <h2>Введите строку для вычисления</h2>
+    </label>
+    <input type="text" id="frase" class="input" value="3.5 землекопа +4 поросенка *10 рублей - 5.5 $ /5 человек =">
+    <div id="result" class="result"></div>
+
+    <label for="text">
+        <h2>Введите строку для удаления символов, повторяющихся в каждом слове</h2>
+    </label>
+    <input type="text" id="text" class="input" value="">
+    <div id="cut-result" class="result"></div>
+
+
+    <script src="js/calc.js"></script>
+    <script src="js/rmsymbols.js"></script>
+</body>
+</html>
